@@ -5,54 +5,54 @@
 # Head info
 head:
     favicon: "/img/logo_miccall.png"
-    keywords: miccall
+    keywords: acupt
     backgroundpic : "img/bg.jpg"
 
 Intro:
-    name: MICCALL
-    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-    HeadButton: MICCALL
+    name: ...
+    slogan: "I have to say something to make it looks cool<br>Only one line is not enough"
+    HeadButton: acupt
 
 Nav:
-    Home_name: 主页
-    is_use_categories : true 
+    Home_name: HOME
+    is_use_categories : false
     categories_name: 分类
     is_use_archives : false
     archives_name: 归档
     icon:
-        github: 
+        github:
             use: true
-            link: https://github.com/miccall
+            link: https://github.com/acupt
         Twitter:
             use: false
-            link: 
+            link:
         Facebook:
             use: false
-            link: 
+            link:
         Instagram:
             use: false
             link:
     pages:
-        简历: 
-            link: "/about/"
-        团队 :
-            link: "/group/"
-        图库 :
+        work :
+            link: "/work/"
+        gallery :
             link: "/gallery/"
-        标签:
+        about:
+          link: "/about/"
+        tag:
             link: "/tag/"
         #自定义标签名
         #   link：“路径”
 
 MainFirst:
-    name: Miccall Metro
-    description: Technical  Artist  of  Games   
-    pic_url: /images/me.jpg
+    name: Hello, world !
+    description: 1024
+    pic_url: /images/emoji/eat-huaji.gif
     goto_ulr: ""
 
 Gallery :
-    title: Mr.metro 
-    description: Just another fine responsive 
+    title: acupt
+    description:
 
 # ---------------------------------------------------------------
 # Style Settings
@@ -70,8 +70,8 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # Available value of "use":
 #     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: disqus_click
-    shortname: http-miccall-tech 
+#    use: duoshuo
+    shortname: http-miccall-tech
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
     changyan_appid:
@@ -83,8 +83,8 @@ comment:
 #     swiftype | google | local
 search:
     use: google
-    swiftype_key: Just another fine responsive  
-    
+    swiftype_key: Just another fine responsive
+
 
 # Leancloud Views
 leancloud:
